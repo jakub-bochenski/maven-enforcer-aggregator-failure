@@ -57,5 +57,7 @@ Tried:
  - making child a module of company-pom (and running `mvn install` from company-pom directory)
 
  - explicitly setting `ignoreParent` to `true` and `false` 
+ 
+ - direct-child `mvn install` is passing OK
 
   [1]: https://maven.apache.org/enforcer/enforcer-rules/banDistributionManagement.html
